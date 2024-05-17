@@ -135,7 +135,7 @@
 /* Comment to prevent wrong concat */
 
 body {
-  background: var(--z1);
+  background: var(--b0);
   font: 14px/120% -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -148,7 +148,7 @@ body {
 }
 
 body.inverted {
-  background: var(--z2);
+  background: var(--b0);
 }
 
 ::selection {background: #000; color: #fff; /* Safari */}
@@ -162,8 +162,8 @@ html, body {
 }
 
 ::-webkit-scrollbar {
-    width: var(--x1);
-    height: var(--x1);
+    width: var(--b0);
+    height: var(--b0);
     background: transparent;
     position: absolute;
 }
