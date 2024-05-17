@@ -79,14 +79,14 @@
 
   <div id="canvas_panel" class="context_panel">
     
-    <h4>Canvas</h4>
+    <h4>Полотно</h4>
 
     <div class="draginputs">
 
 
       <label class="draginput twocol textcontent" data-title="Change Content">
         <input id="canvas_title" type="text">
-        <span>Title</span>
+        <span>Заголовок</span>
       </label>
 
 
@@ -101,7 +101,7 @@
       </label>
       
       <label data-title="Change canvas color" class="draginput">
-        <span>Color</span>
+        <span>Колір</span>
         <div id="color_canvas_tools">
           <div class="color_tool active" id="tool_canvas">
             <div class="color_block">
@@ -112,75 +112,12 @@
         </div>
       </label>
 
-      <div class="draginput">
-        <span>Sizes</span>
-        <select id="resolution">
-
-          <option id="selectedPredefined" selected="selected">Custom</option>
-          <option id="fitToContent" value="content">Fit to Content</option>
-
-          <optgroup label="Social Media">
-            <option value="1012x506">Twitter Post (1012 × 506)</option>
-            <option value="1500x500">Twitter Header (1500 × 500)</option>
-            <option value="1200x630">Facebook Post (1200 × 630)</option>
-            <option value="820x312">Facebook Cover (820 × 312)</option>
-            <option value="1080x1080">Instagram Post (1080 × 1080)</option>
-            <option value="1080x1920">Instagram Story (1080 × 1920)</option>
-            <option value="300">Dribble Shot (400 × 300)</option>
-            <option value="800x600">Dribble Shot HD (800 × 600)</option>
-            <option value="1584x396">LinkedIn Cover (1584 × 396)</option>
-          </optgroup>
-
-          <optgroup label="Presentation">
-            <option value="1920x1080">16:9 (1920 × 1080)</option>
-            <option value="1024x768">4:3 (1024 × 768)</option>
-          </optgroup>
-          
-          <optgroup label="Desktop">
-            <option value="1140x1024">Desktop (1140 × 1024)</option>
-            <option value="375x700">MacBook (834 × 1194)</option>
-            <option value="1440x900">MacBook Pro (1024 × 1366)</option>
-            <option value="1500x1000">Surface Book (1440 × 990)</option>
-            <option value="1280x720">iMac (1368 × 912)</option>
-          </optgroup>
-
-
-          <optgroup label="Tablet">
-            <option value="414x896">iPad Mini (768 × 1024)</option>
-            <option value="375x812">iPad Pro 11" (834 × 1194)</option>
-            <option value="375x812">iPad Pro 12.9" (1024 × 1366)</option>
-            <option value="414x736">Surface Pro 3 (1440 × 990)</option>
-            <option value="414x736">Surface Pro 4 (1368 × 912)</option>
-          </optgroup>
-
-          <optgroup label="Phone">
-            <option value="414x896">iPhone 11 ProMax (414 × 896)</option>
-            <option value="375x812">iPhone 11 Pro / X (375 × 812)</option>
-            <option value="414x736">iPhone 8 Plus (414 × 736)</option>
-            <option value="375x667">iPhone 8 (375 × 667)</option>
-            <option value="411x731">Google Pixel 2 (411 × 731)</option>
-            <option value="411x823">Google Pixel XL (411 × 823)</option>
-            <option value="360x640">Android (360 × 640)</option>
-          </optgroup>
-          
-          <optgroup label="Paper">
-            <option value="595x842">A4 (595 × 842)</option>
-            <option value="420x595">A5 (420 × 595)</option>
-            <option value="297x420">A6 (297 × 420)</option>
-            <option value="612x792">Letter (612 × 792) </option>
-            <option value="792x1224">Tabloid (792 × 1224)</option>
-            
-          </optgroup>
-        </select>
-        <div class="caret"></div>
-        <label id="resolution_label">Custom</label>
-      </div>
 
     </div>
   </div>
   
   <div id="rect_panel" class="context_panel">
-    <h4>Rectangle</h4>
+    <h4>Трикутник</h4>
     <div class="draginputs">
       <label class="draginput">
         <input id="rect_x" class="attr_changer" data-title="Change X coordinate" data-attr="x" pattern="[0-9]*">
@@ -202,7 +139,7 @@
   </div>
   
   <div id="path_panel" class="context_panel clearfix">
-      <h4>Path</h4>
+      <h4>Шлях</h4>
       <div class="draginputs">
         <label>
           <input id="path_x" class="attr_changer" data-title="Change ellipse's cx coordinate" data-attr="x" pattern="[0-9]*">
@@ -216,7 +153,7 @@
   </div>
 
   <div id="image_panel" class="context_panel clearfix">
-  <h4>Image</h4>
+  <h4>Зображення</h4>
     <div class="draginputs">
       <label class="draginput">
         <input id="image_x" class="attr_changer" data-title="Change X coordinate" data-attr="x" pattern="[0-9]*">
@@ -238,7 +175,7 @@
   </div>
   
   <div id="circle_panel" class="context_panel">
-    <h4>Circle</h4>
+    <h4>Коло</h4>
     <div class="draginputs">
       <label id="tool_circle_cx" class="draginput">
         <span>Center X</span>
@@ -249,14 +186,14 @@
         <input id="circle_cy" class="attr_changer" title="Change circle's cy coordinate" data-attr="cy">
       </label>
       <label id="tool_circle_r" class="draginput">
-        <span>Radius</span>
+        <span>Радіус</span>
         <input id="circle_r" class="attr_changer" title="Change circle's radius" data-attr="r">
       </label>
     </div>
   </div>
 
   <div id="ellipse_panel" class="context_panel">
-      <h4>Ellipse</h4>
+      <h4>Еліпс</h4>
       <div class="draginputs">
       <label id="tool_ellipse_cx">
         <input id="ellipse_cx" class="attr_changer" data-title="Change ellipse's cx coordinate" data-attr="cx" pattern="[0-9]*">
@@ -268,44 +205,44 @@
       </label>
       <label id="tool_ellipse_rx">
         <input id="ellipse_rx" class="attr_changer" data-title="Change ellipse's x radius" data-attr="rx" pattern="[0-9]*">
-        <span>Radius X</span>
+        <span>Радіус X</span>
       </label>
       <label id="tool_ellipse_ry">
         <input id="ellipse_ry" class="attr_changer" data-title="Change ellipse's y radius" data-attr="ry" pattern="[0-9]*">
-        <span>Radius Y</span>
+        <span>Радіус Y</span>
       </label>
     </div>
   </div>
 
   <div id="line_panel" class="context_panel clearfix">
-    <h4>Line</h4>
+    <h4>Лінія</h4>
     <div class="draginputs">
       <label id="tool_line_x1">
         <input id="line_x1" class="attr_changer" data-title="Change line's starting x coordinate" data-attr="x1" pattern="[0-9]*">
-        <span>Start X</span>
+        <span>Початок X</span>
       </label>
       <label id="tool_line_y1">
         <input id="line_y1" class="attr_changer" data-title="Change line's starting y coordinate" data-attr="y1" pattern="[0-9]*">
-        <span>Start Y</span>
+        <span>Початок Y</span>
       </label>
       <label id="tool_line_x2">
         <input id="line_x2" class="attr_changer" data-title="Change line's ending x coordinate" data-attr="x2" pattern="[0-9]*">
-        <span>End X</span>
+        <span>Кінець X</span>
       </label>
       <label id="tool_line_y2">
         <input id="line_y2" class="attr_changer" data-title="Change line's ending y coordinate" data-attr="y2" pattern="[0-9]*">
-        <span>End Y</span>
+        <span>Кінець Y</span>
       </label>
     </div>
   </div>
 
   <div id="text_panel" class="context_panel">
 
-    <h4>Text</h4>
+    <h4>Текст</h4>
     <div class="draginputs">
       <label class="draginput twocol textcontent hidden" data-title="Change Content">
         <input id="text" type="text" autocomplete="off">
-        <span>Content</span>
+        <span>Вміст</span>
       </label>
       <label>
         <input id="text_x" class="attr_changer" data-title="Change text x coordinate" data-attr="x" pattern="[0-9]*">
@@ -317,7 +254,7 @@
       </label>
       <div class="toolset draginput twocol" id="tool_font_family">
           <!-- Font family -->
-        <span>Font</span>
+        <span>Шрифт</span>
         <div id="preview_font" style="font-family: sans-serif">sans-serif</div>
         <div class="caret"></div>
         <input id="font_family" data-title="Change Font Family" size="12" type="hidden">
@@ -325,13 +262,13 @@
         </select>
       </div>
       <div class="draginput font_style">
-          <span>Font Style</span>
+          <span>Стиль</span>
           <div id="tool_bold" data-title="Bold Text [B]">B</div>
           <div id="tool_italic" data-title="Italic Text [I]">i</div>
         </div>
       <label id="tool_font_size" data-title="Change Font Size">
         <input id="font_size" value="0">
-        <span id="font_sizeLabel" class="icon_label">Font Size</span>
+        <span id="font_sizeLabel" class="icon_label">Розмір</span>
       </label>
     </div>
   </div>
@@ -472,14 +409,14 @@
   </div>
   
   <div id="stroke_panel" class="context_panel">
-    <h4>Stroke</h4>
+    <h4>Лінія</h4>
     <div class="draginputs">
       <label class="draginput" data-title="Change stroke">
         <input id="stroke_width" size="2" value="1" data-attr="stroke-width" min="0" max="99" step="1">
-        <span class="icon_label">Width</span>
+        <span class="icon_label">Ширина</span>
       </label>
       <div class="stroke_tool draginput"> 
-        <span>Dash</span>
+        <span>Тире</span>
         <select id="stroke_style" data-title="Change stroke dash style">
           <option selected="selected" value="none">—</option>
           <option value="2,2">···</option>
