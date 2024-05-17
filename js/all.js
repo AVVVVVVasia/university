@@ -3050,7 +3050,7 @@ const dao = [
     name: "canvasTitle",
     label: "Canvas Title",
     type: "string",
-    default: "Drawing",
+    default: "Текст",
     private: false,
     save: true
   },
