@@ -43,10 +43,15 @@
     <div class="menu_title">Файл</div>
     <div class="menu_list inverted-undo" id="file_menu"> 
       <div data-action="clear" id="tool_clear" class="menu_item">Новий документ</div>
+
       
       <div id="tool_import" class="menu_item">
         <input type="file" accept="image/*" id="tool_import_input">
         Вставити зображення... <span class="shortcut" style="display: none;">⌘K</span>
+      </div>
+      <div id="tool_open" class="menu_item">
+        <input type="file" accept="image/svg+xml" id="tool_open_input">
+        Відкрити SVG...
       </div>
       <div data-action="save" id="tool_save" class="menu_item">Зберегти зображення... </div>
     </div>
